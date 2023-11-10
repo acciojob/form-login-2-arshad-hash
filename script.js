@@ -1,4 +1,3 @@
-//your JS code here. If required.
 const form = document.querySelector("form");
 console.log(form);
 //
@@ -12,8 +11,8 @@ function onSubmit(event){
     let employee = {
         FirstName:form["First Name"].value,
         LastName:form["Last Name"].value,
-        PhoneNumber:form["Phone Number]".value,
-        EmailID:form["Email ID]".value
+        PhoneNumber:form["Phone Number"].value,
+        EmailID:form["Email ID"].value
 
 
     }
