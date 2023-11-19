@@ -9,10 +9,10 @@ function onSubmit(event){
     event.preventDefault();
     // creating an object for storing values;
     let employee = {
-        FirstName:form["FirstName"].value,
-        LastName:form["LastName"].value,
-        PhoneNumber:form["PhoneNumber"].value,
-        EmailID:form["EmailID"].value
+        "First Name":form["FirstName"].value,
+        "Last Name":form["LastName"].value,
+        "Phone Number":form["PhoneNumber"].value,
+        "Email ID":form["EmailID"].value
 
 
     }
