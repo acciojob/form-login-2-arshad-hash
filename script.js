@@ -22,7 +22,7 @@ function onSubmit(event){
 
     for(let prop in employee)
        {
-        alertString=alertString+`${prop}:${employee[prop]}\n`;
+        alertString=alertString+`${prop}: ${employee[prop]}\n`;
        }
     
     
